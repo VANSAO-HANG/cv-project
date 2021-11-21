@@ -1,0 +1,726 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+
+   
+}
+nav{
+    background: rgb(253, 253, 253);
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+    padding: 10px;
+
+}
+.logo {
+    margin-top: 5px;
+    margin-left: 75px;
+}
+.menu {
+    margin-right: 90px;
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    transition: 0.8s;
+}
+.nav-item {
+    list-style: none;
+    padding:10px;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    padding: 10px;
+}
+
+
+nav ul:hover {
+    color: #fff;
+    
+}
+ nav .nav-link:hover {
+    transition: 0.8s;
+    color: #fff;
+    background: rgba(240, 89, 78, 1);
+}
+nav .fa {
+    color: #000;
+}
+nav .active{
+    color: rgba(240, 89, 78, 1);
+}
+nav .active:hover {
+    border-bottom: 0px;
+}
+.home {
+    width: 100%;
+    height: 70vh;
+    color: #fff;
+    background-image:  url(../images/home.png);
+    background-size: cover;
+    background-position: center 36%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 10%;
+}
+.home h1 {
+    font-size: 50px;
+}
+.home p {
+    font-size: large;
+}
+span {
+    color: rgba(240, 89, 78, 1);;
+}
+.btn-one, .btn-download {
+    background: rgba(240, 89, 78, 1);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;
+    transition: 0.8s;
+}
+.btn-one:hover, .btn-download:hover {
+    background: none;
+    color: rgba(240, 89, 78, 1);
+    border:1px solid rgba(240, 89, 78, 1);
+}
+.btn-one :hover {
+    outline: none;
+}
+.btn-download a {
+    text-decoration: none;  
+    color: #fff;
+}
+.btn-download a:hover {
+    
+    color:rgba(240, 89, 78, 1);
+}
+
+
+/* ----------------------- Footer   -------------- */
+.foot-container {
+    background: #000;
+    color: white;
+    padding: 40px 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.fa{
+    margin-top: 5px;
+    color: rgba(240, 89, 78, 1);
+}
+.foot h2 {
+    margin-bottom: 0;
+    padding: 10px;
+}
+footer .form-control {
+    border: 2px solid lightblue;
+}
+.ruler {
+    border: 1px solid ;
+}
+footer h4 {
+    text-align: center;
+    
+}
+footer .nav-link {
+    color: white;
+    
+}
+.foot-container .btn-one {
+    margin: 10px;
+}
+
+
+/* --------------------Contact me--------------- */
+.contact {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact h1 {
+    width: 100%;
+    text-align: center;
+}
+.contact h1 span:hover {
+    
+    border-bottom: 2px solid sienna;
+}
+.contact .location{
+    width: 100%;
+    
+}
+.contact .province {
+    width: 40%;
+    background:none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 30px;
+}
+.province .province-name {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.province h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.location-name, .socail {
+    width: 48%;
+    padding: 10px;
+
+}
+.socail {
+    padding-top: 10px;
+}
+.socail h4 {
+    padding: 10px;
+}
+.location {
+    margin: 50px 0 50px 0;
+}
+.social-icon .fa {
+    padding: 4rem 2rem;
+    
+}
+.form-container {
+    box-shadow: 0 0 3px 3px #E5E5E5;
+    border-radius: 10px;
+    width: 50%;
+    padding: 2rem 1rem;
+    background:#E5E5E5;
+}
+
+.form-group {
+    padding: 10px;
+}
+.form-control {
+    border: none;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5px;
+}
+.two-input {
+    display: flex;
+    width: 100%;
+}
+.two-input .form-group{
+    width: 100%;
+}
+.form-container .btn-one{
+    margin-top: 30px;
+}
+
+.form-container .button {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.form-container .user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.form-container .fa-user {
+    color: black;
+}
+.user-logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    padding: 10px;
+    background: rgba(240, 89, 78, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-control:hover{
+    border: 2px solid lightblue;
+}
+.form-container:hover {
+    box-shadow: 0 0 3px 3px lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+/* -------------------about me--------------- */
+header{
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    background: #E1E5E8;
+}
+.my-info {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.my-photo {
+    width: 100%;height: 100%;
+    background: rgba(240, 89, 78, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.my-photo:hover {
+    background: #E1E5E8;
+}
+.my-photo img {
+    border-radius: 4px;
+    width: 60%;
+    height: 80%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.507);
+}
+.my-photo img:hover {
+    box-shadow: rgba(0, 0, 0, 0.616) 0px 7px 29px 0px;
+}
+.text-info {
+    padding-top: 8% ;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.text-info p {
+    font-size: larger;
+    margin-bottom: 30px;
+}
+.my-hobby {
+    margin: 60px 0 60px 0;
+}
+.my-hobby h1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.my-hobby span, .edu-container span{
+    display: inline-block;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    clip-path: polygon(4% 0, 100% 0%, 97% 100%, 0% 100%);
+    background:rgba(240, 89, 78, 1);
+
+}
+.my-hobby h2 {
+    margin-top: 60px;
+    color: rgba(240, 89, 78, 1);
+}
+.rows {
+    width: 90%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 30px;
+    padding-top: 60px;
+    background: #E1E5E8;
+    border-radius: 0px;
+    box-shadow: 0 0 5px 5px #E1E5E8;
+}
+
+.col-3 {
+    width: 20%;
+    height: auto;
+    
+    box-shadow: 0 0 5px 5px #acbcc9;
+    border-radius: 10px;
+    padding: 15px;
+    border-top: 4px solid rgba(240, 89, 78, 1);
+    position: relative;
+}
+.about-container .col-3 {
+    text-align: center;
+}
+.about-container .col-3 p {
+    text-align: left;
+}
+.about-container .images {
+    width: 88px;
+    height: 88px;
+    margin: auto;
+    position: absolute;
+    top: -45px;
+    left: 100px;
+    
+
+}
+.about-container .images img {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    border: 1px solid rgb(252, 181, 176);
+    
+}
+/* --------------------------Educaton page------------------- */
+.edu-container h4 {
+    margin: 0;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+.react {
+    margin-top: 10px;
+}
+.map {
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.edu-container .images {
+    width: 100%;
+    height: 30vh;
+       
+   
+}
+.edu-container .images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px grey;
+}
+.edu-container  h1{
+    text-align: center;
+}
+.edu-container .border-bottom {
+    
+    width: 10%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid rgb(252, 181, 176);
+}
+.edu-container .my-skill .rows {
+    background: E5E5E5;
+    border-radius: 2px;
+    padding: 0;
+    width: 100%;
+    box-shadow: none;
+}
+.col-4 {
+    width: 27%;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.col-4:hover {
+    background-color: #ddd;
+    transition: 0.8s;
+}
+.col-6 {
+    width: 40%;
+    margin: 100px 50px;
+
+}
+.hard-skill {
+    background: none;
+}
+.hard-skill h3 {
+    margin-bottom: 0;
+    padding: 10px;
+}
+.border {
+    width: 95%;
+    height: 15px;
+    background: none;
+    border: 1px solid ;
+    border-radius: 40px;
+}
+.fill {
+    height: 100%;
+    background: rgb(250, 139, 131);
+    border-radius: 40px;
+}
+.fill-one {
+    width: 65%;
+}
+.fill-two {
+    width: 70%;
+}
+.fill-three {
+    width: 80%;
+}
+.fill-four {
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:786px){
+    .edu-container .col-6 {
+        width: 100%;
+    }
+    .contact {
+        width: 80%;
+    }
+    .contact .form-container {
+        width: 100%;
+    }
+    .contact .province {
+        width: 100%;
+    }
+   
+    iframe {
+        width: 100%;
+    }
+    .edu-container .col-4 {
+        width: 40%;
+    }
+    
+    .edu-container .border-bottom {
+        width: 30%;
+    }
+    
+    .edu-container .rows{
+        width: 92%;
+        flex-wrap: wrap;
+        padding: 30px;
+       justify-content: space-between;
+     
+    }
+    .edu-container .rows .col-3{
+        width: 41%;
+        margin: 5px  ;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .logo {
+        display: none;
+    }
+
+    .menu {
+        width: 80%;
+        margin: auto;
+    }
+    .home {
+        padding-top: 25%;
+        height: 50vh;
+    }
+    .hide-form {
+        display: none;
+    }
+ 
+  
+    .about-container header{
+        flex-wrap: wrap;
+
+    }
+    .about-container .text-info, .my-info {
+        width: 100%;
+    }
+    .about-container .text-info {
+        text-align: center;
+        padding-top: 0;
+    }
+    .my-info {
+        height: 50vh;
+    }
+    .text-info {
+        height: 77vh;
+    }
+    .about-container header {
+        height: 90vh;
+    }
+    .my-hobby {
+        margin: 0;
+        width: 92%;
+    }
+    .about-container .rows {
+        
+       width: 100%;
+       flex-wrap: wrap;
+       justify-content: space-between;
+    }
+    .about-container .col-3 {
+        width: 43%;
+        height: auto;
+        margin-top: 80px;
+      
+    }
+    .about-container .images {
+        left: 128px;
+    }
+    .about-container h1 {
+        margin-top: 50px;
+    }
+    
+   nav .hide {
+       display: none;
+   }
+}
+@media (max-width:428px){
+    .edu-container .col-6 .border{
+        height: 10px;
+        
+    }
+    .edu-container .col-6{
+        margin: 20px;
+
+    }
+    .edu-container .col-6 .p-top-zero{
+        padding-top: 0;
+
+    }
+    
+    .location-name {
+        width: 100%;
+        text-align: center;
+    }
+    .socail  {
+        display: none;
+    }
+    .edu-container {
+        width: 100%;
+    }
+    .edu-container .rows {
+        width: 100%;
+        padding: 0;
+    }
+    .edu-container .rows .col-3 {
+        width: 80%;
+        margin-left:auto ;
+        margin-right:auto ;
+        
+    }
+    .edu-container .rows .col-4 {
+        width: 100%;
+    }
+    
+    .edu-container .border-bottom {
+        width: 50%;
+    }
+    nav {
+        position: static;
+
+    }
+    .menu {
+        width: 50%;
+        
+        text-align: center;
+        margin-left: 70px;
+    }
+    .menu ul{
+        display: block;
+    }
+    .download-cv{
+        display: none;
+    }
+    
+    .home {
+        width: 100%;
+        padding-top: 8%;
+        height: 40vh;
+    }
+    .home h1 {
+        font-size: 30px;
+    }
+    .home p {
+        font-size: 15px;
+    }
+    .hide {
+        display: none;
+    }
+    .foot-container {
+        display: block;
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        
+    }
+    .follow {
+        display: flex;
+        margin-left: 21px;
+    }
+    .about-container header {
+        height: 140vh;
+    }
+    .text-info {
+        padding: 20px;
+   
+
+    }
+    .about-container h1 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .about-container p {
+        font-size: 19px;
+        text-align: left;
+        line-height: 2rem;
+    }
+    
+    .about-container .my-hobby {
+        width: 99%;
+    }
+    .about-container .rows {
+        width: 96%;
+        
+        padding: 8px;
+        padding-bottom: 40px;
+    }
+    .about-container .col-3 {
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .foot-container {
+        width: 60%;
+       margin-left: 0;
+        margin-right: 0;
+    }
+    .about-container .images {
+        left: 136px;
+    }
+    .about-container .foot-container {
+        margin-top: 50px;
+    }
+    .foot-link {
+        padding-left: 20px;
+    }
+}
+
+
+
